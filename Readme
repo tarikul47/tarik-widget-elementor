@@ -2,3 +2,15 @@ First widget folder name need to change
 
 Need to change widget php file name = tr-[something].php
 
+Plugin manin file = widget.php 
+
+    #. Class Name fixed it
+    #. Instance call with class name 
+    #. init_widgets() = call the new widget name 
+
+
+Custom widget file 
+
+    #. Class Name need to modify with according widget name 
+    #. the class name need to set on plugin php file 
+

@@ -14,7 +14,7 @@ class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 	 *
 	 */
 	public function get_name() {
-		return 'blank_widget';
+		return 'tr_post_filter';
 	}
 
 	/**
@@ -28,7 +28,7 @@ class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 	 *
 	 */
 	public function get_title() {
-		return __( 'Blank Widget', 'ebe' );
+		return __( 'Tr Post Filter', 'ebe' );
 	}
 
 	/**
