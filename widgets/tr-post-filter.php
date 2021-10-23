@@ -28,7 +28,7 @@ class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 	 *
 	 */
 	public function get_title() {
-		return __( 'Tr Post Filter', 'ebe' );
+		return __( 'Tr Post Filter', 'tr-post-filter' );
 	}
 
 	/**
@@ -86,7 +86,7 @@ class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'content_section',
 			[
-				'label' => __( 'Content', 'ebe' ),
+				'label' => __( 'Content', 'tr-post-filter' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -94,11 +94,11 @@ class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'dummy_text',
 			[
-				'label'       => __( 'Dummy Text', 'ebe' ),
+				'label'       => __( 'Dummy Text', 'tr-post-filter' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
 				'input_type'  => 'text',
-				'placeholder' => __( 'Some Dummy Text', 'ebe' ),
-				'default'     => __( 'Elementor Blank Widget', 'ebe' ),
+				'placeholder' => __( 'Some Dummy Text', 'tr-post-filter' ),
+				'default'     => __( 'Elementor Blank Widget', 'tr-post-filter' ),
 			]
 		);
 
@@ -118,7 +118,7 @@ class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'style_section',
 			[
-				'label' => __( 'Text Style', 'ebe' ),
+				'label' => __( 'Text Style', 'tr-post-filter' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_STYLE,
 			]
 		);
@@ -126,7 +126,7 @@ class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'color',
 			[
-				'label'     => __( 'Color', 'ebe' ),
+				'label'     => __( 'Color', 'tr-post-filter' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#ff0000',
 				'selectors' => [
@@ -139,7 +139,7 @@ class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'content_typography',
-				'label'    => __( 'Typography', 'ebe' ),
+				'label'    => __( 'Typography', 'tr-post-filter' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .dummy_text',
 			]

@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: LWHH Blank Extension
+Plugin Name: Tarik widget of elementor
 Plugin URI:
 Description: Boilerplate for creating Elementor Extensions
 Version: 1.0
 Author: Hasin
-Author URI: https://hasin.me
+Author URI: https://onlytarikul.com
 License: GPLv2 or later
-Text Domain: ebe
+Text Domain: tr-post-filter
 Domain Path: /languages/
 */
 
@@ -100,7 +100,7 @@ final class Tarik_Custom_Extension {
 	 */
 	public function i18n() {
 
-		load_plugin_textdomain( 'ebe' );
+		load_plugin_textdomain( 'tr-post-filter' );
 
 	}
 
@@ -156,9 +156,9 @@ final class Tarik_Custom_Extension {
 
 		$message = sprintf(
 		/* translators: 1: Plugin name 2: Elementor */
-			esc_html__( '"%1$s" requires "%2$s" to be installed and activated.', 'ebe' ),
-			'<strong>' . esc_html__( 'Elementor Blank Extension', 'ebe' ) . '</strong>',
-			'<strong>' . esc_html__( 'Elementor', 'ebe' ) . '</strong>'
+			esc_html__( '"%1$s" requires "%2$s" to be installed and activated.', 'tr-post-filter' ),
+			'<strong>' . esc_html__( 'Elementor Blank Extension', 'tr-post-filter' ) . '</strong>',
+			'<strong>' . esc_html__( 'Elementor', 'tr-post-filter' ) . '</strong>'
 		);
 
 		printf( '<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message );
@@ -180,9 +180,9 @@ final class Tarik_Custom_Extension {
 
 		$message = sprintf(
 		/* translators: 1: Plugin name 2: Elementor 3: Required Elementor version */
-			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'ebe' ),
-			'<strong>' . esc_html__( 'Elementor Blank Extension', 'ebe' ) . '</strong>',
-			'<strong>' . esc_html__( 'Elementor', 'ebe' ) . '</strong>',
+			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'tr-post-filter' ),
+			'<strong>' . esc_html__( 'Elementor Blank Extension', 'tr-post-filter' ) . '</strong>',
+			'<strong>' . esc_html__( 'Elementor', 'tr-post-filter' ) . '</strong>',
 			self::MINIMUM_ELEMENTOR_VERSION
 		);
 
@@ -205,9 +205,9 @@ final class Tarik_Custom_Extension {
 
 		$message = sprintf(
 		/* translators: 1: Plugin name 2: PHP 3: Required PHP version */
-			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'ebe' ),
-			'<strong>' . esc_html__( 'Elementor Blank Extension', 'ebe' ) . '</strong>',
-			'<strong>' . esc_html__( 'PHP', 'ebe' ) . '</strong>',
+			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'tr-post-filter' ),
+			'<strong>' . esc_html__( 'Elementor Blank Extension', 'tr-post-filter' ) . '</strong>',
+			'<strong>' . esc_html__( 'PHP', 'tr-post-filter' ) . '</strong>',
 			self::MINIMUM_PHP_VERSION
 		);
 

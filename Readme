@@ -14,3 +14,5 @@ Custom widget file
     #. Class Name need to modify with according widget name 
     #. the class name need to set on plugin php file 
 
+
+textdomain need to chnage 
