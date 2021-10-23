@@ -11,7 +11,7 @@ Text Domain: ebe
 Domain Path: /languages/
 */
 
-final class Elementor_Blank_Extension {
+final class Tarik_Custom_Extension {
 
 	/**
 	 * Plugin Version
@@ -230,10 +230,10 @@ final class Elementor_Blank_Extension {
 		require_once( __DIR__ . '/widgets/lwhh-blank-widget.php' );
 
 		// Register widget
-		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \LWHH_Blank_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \TR_Post_Filter_Widget() );
 
 	}
 
 }
 
-Elementor_Blank_Extension::instance();
+Tarik_Custom_Extension::instance();

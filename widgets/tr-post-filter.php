@@ -1,7 +1,7 @@
 <?php
 
 
-class LWHH_Blank_Widget extends \Elementor\Widget_Base {
+class TR_Post_Filter_Widget extends \Elementor\Widget_Base {
 
 	/**
 	 * Get widget name.
