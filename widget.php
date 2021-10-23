@@ -227,7 +227,7 @@ final class Tarik_Custom_Extension {
 	public function init_widgets() {
 
 		// Include Widget files
-		require_once( __DIR__ . '/widgets/lwhh-blank-widget.php' );
+		require_once( __DIR__ . '/widgets/tr-post-filter.php' );
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \TR_Post_Filter_Widget() );
